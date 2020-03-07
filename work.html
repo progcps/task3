@@ -5,42 +5,48 @@
     <head>
         <!-- 文字化け設定 -->
         <meta charset="utf-8">
+        <!-- レスポンシブメタ設定 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ファビコン -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
         <!-- CSSリセット -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <!-- スタイルシートのリンク -->
         <link rel="stylesheet" href="style.css">
+        <!-- レスポンシブ用スタイルシートのリンク -->
+        <link rel="stylesheet" href="responsive.css">
         <!-- h1タグのウェブフォント -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-        <!-- h2タグのウェブフォント -->
+        <!-- h2,liタグのウェブフォント -->
         <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
-        <!-- liタグのウェブフォント -->
-        <link href="https://fonts.googleapis.com/css?family=Crafty+Girls&display=swap" rel="stylesheet">
         <title>Hirotaka`s page2</title>
     </head>
     <body>
         <header>
-            <h1 class="contents-width"><a href="index.html">Hirotaka`s PageⅡ</a></h1>
+            <div class="contents-width">
+                <h1><a href="index.html">Hirotaka`s PageⅡ</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Profile</a></li>
+                        <li><a href="hobby.html">Hobby</a></li>
+                        <li><a href="mission.html">Mission</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
-            <div class="h2-box">
-                <h2 class="contents-width">Work.</h2>
-            </div>
-            <div class="menu groval">
-                <ul class="contents-width">
-                    <li><a href="profile.html">Profile.</a></li>
-                    <li><a href="hobby.html">Hobby.</a></li>
-                    <li><a href="work.html">Work.</a></li>
-                    <li><a href="mission.html">Mission.</a></li>
-                </ul>
-            </div>
-            <div class="contents-width work-contents">
-                <div class="work-img">
-                    <img src="images/home.jpg" alt="">
+            <div class="contents-width">
+                <h2>Work</h2>
+                <p>このページでは私の仕事を簡単に紹介します。</p>
+                <p>私は個人事業主で仕事をしていますが、もう一つ目標があります。</p>
+                <div class="profile-wrapp">
+                    <div class="profile-img">
+                        <img src="images/home.jpg" alt="">
+                    </div>
+                    <div class="profile-contents hobby-contents">
+                        <p>私は個人事業主だが、仕事をするもしないも自由です。<br>ただ、仕事をしなければ食っていくことはできないのです。<br>しかし、今は建築関連の仕事をしていすが、「これが一番大好きな仕事か？」と聞かれたら大きな声で「Yes!」とはいえません。<br>ですが嫌いでもありません。一番やりたい仕事が他にもあるのです。その為に日々試行錯誤しています。むしろ、これは仕事も遊びも関係ない状態だと感じています。これを私がやりたいと思える仕事につけたら、幸せでしょう！</p>
+                    </div>
                 </div>
-                <div class="work-right">
-                    <h3>仕事は好きか？</h3>
-                    <p>私は個人事業主だが、仕事をするもしないも自由です。<br>ただ、仕事をしなければ食っていくことはできないのです。<br>しかし、今は建築関連の仕事をしていすが、「これが一番大好きな仕事か？」と聞かれたら大きな声で「Yes!」とはいえません。<br>ですが嫌いでもありません。一番やりたい仕事が他にもあるのです。その為に日々試行錯誤しています。むしろ、これは仕事も遊びも関係ない状態だと感じています。これを私がやりたいと思える仕事につけたら、幸せでしょう！</p>
-                </div>    
             </div>
         </main>
         <footer>

@@ -5,41 +5,55 @@
     <head>
         <!-- 文字化け設定 -->
         <meta charset="utf-8">
+        <!-- レスポンシブメタ設定 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ファビコン -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
         <!-- CSSリセット -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-        <!-- CSSリセット ブラウザに依存しているCSSをリセットする為-->
+        <!-- スタイルシートのリンク -->
         <link rel="stylesheet" href="style.css">
+        <!-- レスポンシブ用スタイルシートのリンク -->
+        <link rel="stylesheet" href="responsive.css">
         <!-- h1タグのウェブフォント -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-        <!-- h2タグのウェブフォント -->
+        <!-- h2,liタグのウェブフォント -->
         <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
-        <!-- liタグのウェブフォント -->
-        <link href="https://fonts.googleapis.com/css?family=Crafty+Girls&display=swap" rel="stylesheet">
         <title>Hirotaka`s page2</title>
     </head>
     <body>
         <header>
-            <h1 class="contents-width"><a href="index.html">Hirotaka`s PageⅡ</a></h1>
+            <div class="contents-width">
+                <h1><a href="index.html">Hirotaka`s PageⅡ</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Profile</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="mission.html">Mission</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
-            <div class="h2-box">
-                <h2 class="contents-width">Hobby.</h2>
-            </div>
-            <div class="menu groval">
-                <ul class="contents-width">
-                    <li><a href="profile.html">Profile.</a></li>
-                    <li><a href="hobby.html">Hobby.</a></li>
-                    <li><a href="work.html">Work.</a></li>
-                    <li><a href="mission.html">Mission.</a></li>
-                </ul>
-            </div>
-            <div class="contents-width hobby-contents">
-                <div class="hobby-img">
-                    <img src="images/people-preparing-food-on-table-2130134.jpg" alt="">
-                </div>
-                <div class="hobby-right">
-                    <h3>趣味ってなんだろう？</h3>
-                    <p>私は沢山好きなことがあります。読書、音楽、プログラミング、勉強、散歩、ドライブ、釣りなどなどですが、何かに没頭できるということは暇な無駄な時間を持て余さないですみます。<br><br>常に何かしらやりたいことがあるのでポカーンとすることがありません。趣味はいいですよ！</p>
+            <div class="contents-width">
+                <h2>Hobby</h2>
+                <p>このページでは私の趣味を簡単に紹介します。</p>
+                <p>私は沢山趣味があるのですが、皆さんはいかがでしょうか？。</p>
+                <div class="profile-wrapp">
+                    <div class="profile-img">
+                        <img src="images/people-preparing-food-on-table-2130134.jpg" alt="">
+                    </div>
+                    <div class="profile-contents hobby-contents">
+                        <p>私は沢山好きなことがあります。読書、音楽、プログラミング、勉強、散歩、ドライブ、釣り、動物などなどですが、何かに没頭できるということは暇な無駄な時間を持て余さないですみます。<br><br>常に何かやりたいかとこがあると時間を無駄に使わなくなるので忙しいことは全てが悪い訳ではないですね。</p>
+                        <p>それでは、大好きな本が沢山ありますが、ここで1刷だけ紹介させていただきます。</p>
+                    </div>
+                    <div class="profile-img">
+                        <img src="https://images-fe.ssl-images-amazon.com/images/I/51pfi-lM-HL.jpg" alt="">
+                    </div>
+                    <h3>嫌われる勇気</h3>
+                    <div class="profile-contents hobby-contents">
+                        <p>言わずと知れた名著ですが、この本の本質って自由に生きるってどういうことかってことがすごくわかりやすく書かれているんですね！<br><br>「嫌われる勇気」このタイトルから何を想像しますか？内容はネガティブではなくとにかくポジティブな内容です。他人に対して無関心だとか、自分さえよければとか、そう言ったことではなくて「自分は自分」「他人は他人」「みんな違っていてそれでいい」だけど同じ世界に生きている、無理に承認してもらうこともなく、媚びを売ったり、八方美人になったり無理に好かれようとしたり、そういう邪念が邪魔をするから本当に自分らしく生きられていないということがストーリーのなかでわかりやすく描かれています。<br><br>「点の上を踊りながら生きる」とか「他人は常に自分を嫌いになる理由を探している」と言った素晴らしい言葉が沢山書かれています。アドラー心理学がどういったものなのかをシンプルに解説してくれているので読みやすいです。とにかくポジティブでアドラーとは対極でもあるフロイトの考え方とは真逆なところも頼もしいところです。もし自由がなんなのかわからないなら是非一読する価値はあります。</p>
+                    </div>
                 </div>
             </div>
         </main>

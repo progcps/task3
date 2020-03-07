@@ -1,41 +1,68 @@
-<!-- HTMLであることの宣言 -->
+<!-- HTML5であることの宣言 -->
 <!DOCTYPE html>
 <!-- HTMLを日本語版に設定 -->
 <html lang="ja">
     <head>
         <!-- 文字化け設定 -->
         <meta charset="utf-8">
+        <!-- レスポンシブメタ設定 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ファビコン -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
         <!-- CSSリセット -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <!-- スタイルシートのリンク -->
         <link rel="stylesheet" href="style.css">
+        <!-- レスポンシブ用スタイルシートのリンク -->
+        <link rel="stylesheet" href="responsive.css">
         <!-- h1タグのウェブフォント -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-        <!-- h2タグのウェブフォント -->
+        <!-- h2,liタグのウェブフォント -->
         <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
-        <!-- liタグのウェブフォント -->
-        <link href="https://fonts.googleapis.com/css?family=Crafty+Girls&display=swap" rel="stylesheet">
         <title>Hirotaka`s page2</title>
     </head>
     <body>
         <header>
-            <h1 class="contents-width">Hirotaka`s PageⅡ</h1>
+            <div class="contents-width">
+                <h1>Hirotaka`s PageⅡ</h1>
+                <nav>
+                    <ul>
+                        <li><a href="hobby.html">Hobby</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="mission.html">Mission</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
-            <div class="h2-box">
-                <h2 class="contents-width">Contents</h2>
-            </div>
-            <div class="container contents-width">
-                <div class="menu">
-                    <ul class="home-list">
-                        <li><a href="profile.html">Profile.</a></li>
-                        <li><a href="hobby.html">Hobby.</a></li>
-                        <li><a href="work.html">Work.</a></li>
-                        <li><a href="mission.html">Mission.</a></li>
-                    </ul>
-                </div>
-                <div class="home-img">
-                    <img src="images/top.jpg" alt="">
+            <div class="contents-width">
+                <h2>Profile</h2>
+                <p>このページでは私の簡単な自己紹介になります。</p>
+                <p>詳細を確認したい場合は「Hooby」「Work」「Mission」のページで解説しているので確認してみてください。</p>
+                <p>今、PCからアクセスしてたり、知り合いにこのサイトを教えてあげる時は以下のQRコードをスマホから読みとればスマホからもアクセスできますよ！</p>
+                <div class="profile-wrapp">
+                    <div class="profile-img">
+                        <div class="profile-img-wrapp">
+                            <img src="images/profile2.jpg" alt="">
+                        </div>
+                        <div class="qr-wrapp">
+                            <img src="images/QR_491577.png" alt="">
+                        </div>
+                    </div>
+                    <div class="profile-contents">
+                        <dl>
+                            <dt>Name :</dt><dd>Hirotaka</dd>
+                        </dl>
+                        <dl>    
+                            <dt>Age :</dt><dd>35years old</dd>
+                        </dl>
+                        <dl>
+                            <dt>Blod Type :</dt><dd>B</dd>
+                        </dl>
+                        <dl>
+                            <dt>Work :</dt><dd>Free Lance</dd>
+                        </dl>
+                    </div>
                 </div>
             </div>
         </main>
