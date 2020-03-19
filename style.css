@@ -1,7 +1,9 @@
 body {
     width: 100%;
     margin: 0;
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 }
+
 
 .contents-width {
     max-width: 1000px;
@@ -70,6 +72,7 @@ h2 {
 
 h3 {
     border-bottom: solid 2px black;
+    margin-bottom: 50px;
 }
 
 main {
@@ -153,12 +156,19 @@ a:hover {
     
 }
 
+.hobby-contents p {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
 
 
 p {
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 35px;
     word-break: break-all;
+    letter-spacing: 1px;
+    color: rgb(71, 71, 71);
 }
 
 
@@ -174,5 +184,26 @@ small {
 }
 
 .copy {
+    text-align: center;
+}
+
+
+button {
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+button:focus {
+  outline:0;
+}
+
+.button-wrapp {
     text-align: center;
 }
