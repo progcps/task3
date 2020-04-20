@@ -101,6 +101,11 @@ dt {
     padding-left: 5px;
 }
 
+/* htmlに’ : ’を記述せずにCSSで定義する */
+dt::after {
+    content: ' :';
+}
+
 
 
 dd {
@@ -118,7 +123,6 @@ dd {
 a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    transition: all 1s;
 }
 
 a:hover {
