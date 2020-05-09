@@ -1,14 +1,14 @@
 
 $('.about-box').hide();
-var flg = "close";
+let isAboutBoxOpen = false;
 $('button').on('click', function(){
     $('.about-box').slideToggle();
-        if(flg === "close"){
+        if(isAboutBoxOpen === false){
             $('button').text('CLOSE');
-                flg = "open";
+            isAboutBoxOpen = true;
         }else{
             $('button').text('OPEN');
-                flg = "close";
+            isAboutBoxOpen = false;
             }
 });
                                                 
