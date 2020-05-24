@@ -152,20 +152,17 @@ a:hover {
     justify-content: center;
 }
 
-
-.hobby-contents {
+.hobby-content {
     padding: 0 5px;
     margin: 20px 0;
 
     
 }
 
-.hobby-contents p {
+.hobby-content p {
     margin: 0 auto;
     max-width: 600px;
 }
-
-
 
 p {
     font-size: 18px;
@@ -174,8 +171,6 @@ p {
     letter-spacing: 1px;
     color: rgb(71, 71, 71);
 }
-
-
 
 footer{
     background-color: black;
